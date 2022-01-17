@@ -1,0 +1,3 @@
+com.ggs.spi.service.ICustomSvc=\
+com.ggs.spi.service.impl.CustomSvcOne,\
+com.ggs.spi.service.impl.CustomSvcTwo
