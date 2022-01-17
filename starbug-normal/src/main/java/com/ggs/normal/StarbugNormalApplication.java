@@ -1,4 +1,4 @@
-package com.example.starbugnormal;
+package com.ggs.normal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
