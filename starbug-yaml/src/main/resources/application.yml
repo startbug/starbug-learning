@@ -1,0 +1,12 @@
+my:
+  name: starbug
+  age: 18
+  favorites:
+    - re0
+    - 素晴
+    - 巨人
+spring:
+  profiles:
+    active: pro
+server:
+  port: 9999

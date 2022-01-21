@@ -1,0 +1,8 @@
+---
+person:
+  person1:
+    name: "Trunks"
+    gender: "male"
+  person2:
+    name: "Goten"
+    gender: "male"
