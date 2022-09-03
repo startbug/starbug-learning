@@ -3,6 +3,7 @@ package com.ggs.springboot3;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
@@ -27,11 +28,10 @@ public class MyMocktioTest2 {
         Assertions.assertEquals(100, random.nextInt());
     }
 
-    @BeforeAll
-    public static void before() {
+    @BeforeEach
+    public void before() {
         // 让注解生效
-        MyMocktioTest2 myMocktioTest2 = new MyMocktioTest2();
-        MockitoAnnotations.openMocks(myMocktioTest2.getClass());
+        MockitoAnnotations.openMocks(this);
     }
 
     @Test
