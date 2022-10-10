@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>starbug-springboot3</module>
+        <module>starbug-mybatis-xml-hotswap</module>
     </modules>
     <groupId>com.ggs</groupId>
     <artifactId>starbug-learning</artifactId>
